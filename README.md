@@ -4,6 +4,6 @@
 Sample: 
 
  
-![Image of Samples](https://github.com/molyom/progressStagePCF/tree/main/ProgressBarPCF/img/progressBar.gif)
+![Image of Samples](https://github.com/molyom/progressStagePCF/blob/main/ProgressBarPCF/img/ProgressBar.gif)
  
  
