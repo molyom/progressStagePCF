@@ -102,7 +102,8 @@ export class ProgressBarPCF implements ComponentFramework.StandardControl<IInput
 	private renderControl(context: ComponentFramework.Context<IInputs>): void {
 		this.isDisabled = context.mode.isControlDisabled;
 		let currentValueObj = this.dropdownOptions.filter(element => element.Value == context.parameters.OptionSetField.raw)
-		this.currentValue = currentValueObj[0].Id;
+		currentValueObj.length == 0 ? this.currentValue = 0 : this.currentValue = currentValueObj[0].Id;
+		
 
 		let params = {
 			options: this.dropdownOptions ?? DEFAULT_OPTIONS,
