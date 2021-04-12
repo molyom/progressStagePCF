@@ -1,0 +1,135 @@
+:root {
+  --line-border-fill: #3498db;
+  --line-border-empty: #DFDFDF;
+  --line-border-fill-active: #DB3923;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+/* body {
+  background-color: #ffffff;
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+  margin: 0; 
+} */
+
+._1Lxpd {
+  text-align: center; 
+   width: auto;
+
+}
+
+._1vzPx {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 30px;
+  max-width: 100%;
+  width: 100%;
+}
+
+._1vzPx::before {
+  content: '';
+  background-color: var(--line-border-empty);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 6px;
+  width: 100%;
+  /* z-index: 0; */
+}
+
+._2EqlW {
+  background-color: var(--line-border-fill);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 0%;
+  z-index: 0;
+  transition: 0.4s ease;
+}
+
+._3PfrK {
+  background-color: #fff;
+  color: #999;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 6px solid var(--line-border-empty);
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+._3PfrK._3sodH {
+  border-color: var(--line-border-fill);
+}
+
+._3PfrK._35Ago {
+  border-color: var(--line-border-fill-active);
+}
+
+._1Pz2d {
+  background-color: var(--line-border-fill);
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 8px 30px;
+  margin: 5px;
+  font-size: 14px;
+  /* added by Moly */
+   display: none;  
+}
+
+._1Pz2d:active {
+  transform: scale(0.98);
+}
+
+._1Pz2d:focus {
+  outline: 0;
+}
+
+._1Pz2d:disabled {
+  background-color: var(--line-border-empty);
+  cursor: not-allowed;
+}
+
+
+._TTlp {
+  display: grid;
+   /* grid-template-columns: auto auto auto auto;  */
+  grid-gap: 10px;
+  grid-auto-rows: minmax(10px, auto);
+  padding: 5px;
+  /* box-sizing: border-box; */
+  margin-Top: 25px;
+  background-color: #e6e6e6 !important;
+  font-Size:10px;
+  position:absolute;
+  top:0; 
+  left:unset;
+  text-align: center;
+  color: black;
+  width: 150px;
+}
+
+._TTlp.top {
+
+}
+
+._TTlp.top::after{
+
+}
