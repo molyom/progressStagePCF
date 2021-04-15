@@ -9,32 +9,32 @@ import ProgressBarWithStages from './component/progressComponent.jsx'
 
 const DEFAULT_OPTIONS: ComponentFramework.PropertyHelper.OptionMetadata[] = [{
 	Value: 10,
-	Label: "10% Accounting",
+	Label: "10% 1",
 	Color: "#6B8E23",
 },
 {
 	Value: 30,
-	Label: "30% Development, this is a pretty long line",
+	Label: "30% 3",
 	Color: "#9ACD32"
 },
 {
 	Value: 50,
-	Label: "50% Management, and this is an even longer line",
+	Label: "50% 5",
 	Color: "#556B2F"
 },
 {
 	Value: 70,
-	Label: "70%  Option 4",
+	Label: "70% 7",
 	Color: "#ADFF2F"
 },
 {
 	Value: 90,
-	Label: "90% Option 5",
+	Label: "90% 9",
 	Color: "#8FBC8F"
 },
 {
 	Value: 100,
-	Label: "100% Option 6",
+	Label: "100% 100",
 	Color: "#006400"
 }
 
@@ -54,9 +54,6 @@ export class ProgressBarPCF implements ComponentFramework.StandardControl<IInput
 	 * Empty constructor.
 	 */
 	constructor() {
-
-
-
 
 	}
 
@@ -89,13 +86,6 @@ export class ProgressBarPCF implements ComponentFramework.StandardControl<IInput
 		this.notifyOutputChanged = notifyOutputChanged;
 
 		this.renderControl(context);
-
-		// ReactDOM.render(React.createElement(App, {}),
-		// 	container);
-
-		// ReactDOM.render( 
-		// 	React.createElement( Progress, {current:1}), container);
-		// Add control initialization code
 	}
 
 
