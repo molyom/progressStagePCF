@@ -4,8 +4,6 @@ var React = _interopDefault(require('react'));
 
 var styles = {"container":"_1Lxpd","progressContainer":"_1vzPx","progress":"_2EqlW","circle":"_3PfrK","active":"_3sodH","current":"_35Ago","btn":"_1Pz2d","tltp":"_TTlp" };
 
-
-
 var ReactMinimalProgressSteps = function ReactMinimalProgressSteps(_ref) {
   var _ref$data = _ref.data,
       data = _ref$data === void 0 ? [{
@@ -46,11 +44,8 @@ var ReactMinimalProgressSteps = function ReactMinimalProgressSteps(_ref) {
   };
 
   var handleCircleClick = function handleCircleClick(item) {
-
-
     setSelectedItemId(item.Value);
-    console.log("handleCircleClick : " +selectedItemId);
-    console.log("handleCircleClick data : " +data.length);
+
   };
 
   return /*#__PURE__*/React.createElement("div", {
@@ -61,7 +56,6 @@ var ReactMinimalProgressSteps = function ReactMinimalProgressSteps(_ref) {
     className: styles.progress,
     style: {
       width: (selectedItemId - 1) / (data.length - 1) * 100 + "%", 
-      //width: ((selectedItemId/10)  ) / (data.length - 1) * 100 + "%", Error Moly
     }
   }), data.length >= 2 ? data.map(function (item) {
     return /*#__PURE__*/React.createElement("div", {
