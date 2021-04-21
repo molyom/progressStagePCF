@@ -20,6 +20,9 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle> -->
   </PropertyGroup>
 
+ <PropertyGroup>
+ <SolutionPakageType>both</SolutionPakageType>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.PowerApps.MSBuild.Pcf" Version="1.*"/>
   </ItemGroup>
