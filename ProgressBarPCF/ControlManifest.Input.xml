@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
-	<control namespace="Molyom.PCFControls" constructor="ProgressBarPCF" version="0.0.02" display-name-key="Molyom.PCFControls.ProgressBarPCF" description-key="ProgressBarPCF description" control-type="standard">
+	<control namespace="Molyom.PCFControls" constructor="ProgressBarPCF" version="0.0.03" display-name-key="Molyom.PCFControls.ProgressBarPCF" description-key="ProgressBarPCF description" control-type="standard">
 		<!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
 		<property name="OptionSetField" display-name-key="OptionSetFieldDisplayName" description-key="Option Set Field to Progress Bar " of-type="OptionSet" usage="bound" required="true" />
 		<!--

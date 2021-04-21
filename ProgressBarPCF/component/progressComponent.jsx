@@ -11,7 +11,7 @@ const [selectedItemId, setSelectedItemId] = React.useState( props.params.selecte
 
 
   return (
-    <div style={{ marginTop: 4,  marginLeft: 68, marginRight: 68 }}>
+    <div style={{ marginTop: 4,  marginLeft: 68, marginRight: 68, marginBottom: 43 }}>
       <ReactMinimalProgressSteps
         data={ 
           props.params.options

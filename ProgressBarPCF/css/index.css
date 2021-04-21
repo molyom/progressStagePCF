@@ -1,23 +1,8 @@
 :root {
-  --line-border-fill: #3498db;
+  --line-border-fill: #DB3923;
   --line-border-empty: #DFDFDF;
   --line-border-fill-active: #DB3923;
 }
-
-/* * {
-  box-sizing: border-box;
-} */
-
-/* body {
-  background-color: #ffffff;
-  font-family: 'Muli', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  overflow: hidden;
-  margin: 0; 
-} */
 
 ._1Lxpd {
   text-align: center; 

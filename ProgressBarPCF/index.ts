@@ -14,12 +14,12 @@ const DEFAULT_OPTIONS: ComponentFramework.PropertyHelper.OptionMetadata[] = [{
 },
 {
 	Value: 30,
-	Label: "30% 3",
+	Label: "30% 3 Herer goes a large text that have to be",
 	Color: "#9ACD32"
 },
 {
 	Value: 50,
-	Label: "50% 5",
+	Label: "50% 5 here other large text to be visible",
 	Color: "#556B2F"
 },
 {
