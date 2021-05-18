@@ -4,10 +4,8 @@ import ReactMinimalProgressSteps from '../src/ReactMinimalProgressSteps'
 
 const ProgressBarWithStages = (props) => {
 
-
-
 const [selectedItemId, setSelectedItemId] = React.useState( props.params.selectedKey)
-  console.log(props);
+  // console.log(props);
 
 
   return (
