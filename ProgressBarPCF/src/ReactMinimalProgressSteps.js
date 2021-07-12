@@ -25,7 +25,7 @@ var ReactMinimalProgressSteps = function ReactMinimalProgressSteps(_ref) {
     if (selectedItemId > data.length) {
       newSelectedItemId = data.length;
     } else {
-      newSelectedItemId = selectedItemId + 1;
+      newSelectedItemId = selectedItemId + 10;
     }
 
     setSelectedItemId(newSelectedItemId);
@@ -76,6 +76,9 @@ var ReactMinimalProgressSteps = function ReactMinimalProgressSteps(_ref) {
     },  item.Label));   
   }) : 'Your items should be more than 1'), 
   
+
+
+
   /*#__PURE__*/React.createElement("button", {
     className: styles.btn,
     disabled: selectedItemId === 1 ? true : false,
@@ -86,7 +89,10 @@ var ReactMinimalProgressSteps = function ReactMinimalProgressSteps(_ref) {
     className: styles.btn,
     disabled: selectedItemId === data.length ? true : false,
     onClick: handleNext
-  }, nextButtonText));
+  }, nextButtonText)
+  
+  
+  );
 };
 
 module.exports = ReactMinimalProgressSteps;

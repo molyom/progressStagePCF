@@ -5,10 +5,17 @@
 }
 
 ._1Lxpd {
-  text-align: center; 
+  /* text-align: center;  */
    width: auto;
+   display: flex;
+   /* flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: normal;
+   align-items: normal;
+   align-content: normal */
 
 }
+
 
 ._1vzPx {
   display: flex;
@@ -73,10 +80,10 @@
   cursor: pointer;
   font-family: inherit;
   padding: 8px 30px;
-  margin: 5px;
+  /* margin: 12px 200px 0px 200px; */
   font-size: 14px;
   /* added by Moly */
-   display: none;  
+display:none
 }
 
 ._1Pz2d:active {
